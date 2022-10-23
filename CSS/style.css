@@ -28,6 +28,7 @@ head {
 }
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: cornsilk;
 }
 header {
   background-color: beige;
@@ -41,9 +42,7 @@ ul:hover {
 .description-1 {
   color: blueviolet;
 }
-body {
-  background-color: cornsilk;
-}
+
 footer {
   font-size: 1rem;
   display: flex;
@@ -52,6 +51,7 @@ footer {
   gap: 16px;
   list-style-type: none;
   margin-right: 1%;
+  background-color: beige;
 }
 
 .nav-bar {
@@ -167,17 +167,6 @@ h2 {
   header {
     display: flex;
     align-items: center;
-  }
-}
-@media (max-width: 500px) {
-  .nav-bar {
-    width: 32%;
-  }
-}
-
-@media (max-width: 500px) {
-  .nav-bar {
-    width: 32%;
   }
 }
 

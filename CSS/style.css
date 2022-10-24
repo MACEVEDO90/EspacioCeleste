@@ -54,19 +54,6 @@ footer {
   background-color: beige;
 }
 
-.nav-bar {
-  display: flex;
-  flex-direction: row;
-  margin-right: 1%;
-}
-.nav-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  gap: 16px;
-  list-style-type: none;
-}
-
 .btn {
   background: blueviolet;
   color: white;

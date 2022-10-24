@@ -119,7 +119,6 @@ a {
   animation: from-right 3s ease;
   font-size: small;
 }
-
 section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

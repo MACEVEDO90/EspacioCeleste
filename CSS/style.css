@@ -32,9 +32,6 @@ body {
 }
 header {
   background-color: beige;
-  position: sticky;
-  top: 0;
-  z-index: 2;
 }
 ul:hover {
   opacity: 0.65;
@@ -83,6 +80,7 @@ a {
   list-style-type: none;
   margin-right: 1%;
 }
+
 .caja {
   width: 200px;
   height: 200px;
@@ -148,13 +146,6 @@ article img {
 
 h2 {
   color: darkcyan;
-}
-
-@media (max-width: 500px) {
-  header {
-    display: flex;
-    align-items: center;
-  }
 }
 
 @media (max-width: 500px) {

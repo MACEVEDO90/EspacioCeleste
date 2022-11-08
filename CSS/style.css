@@ -1,12 +1,13 @@
+.description-1 {
+  color: #09757c;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.description-1 {
-  color: #09757c;
-}
 img {
   max-width: 100%;
 }
@@ -20,6 +21,10 @@ img svg {
 }
 
 h1 {
+  color: darkcyan;
+}
+
+h2 {
   color: darkcyan;
 }
 

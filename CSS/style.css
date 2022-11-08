@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+.description-1 {
+  color: #09757c;
+}
 img {
   max-width: 100%;
 }
@@ -20,22 +23,22 @@ h1 {
   color: darkcyan;
 }
 
-h2 {
-  color: darkcyan;
-}
 head {
   font-family: "Montserrat", sans-serif;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
   background-color: cornsilk;
 }
+
 header {
   background-color: beige;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
-ul:hover {
-  opacity: 0.65;
-}
+
 .description-1 {
   color: blueviolet;
 }
@@ -48,7 +51,6 @@ footer {
   gap: 16px;
   list-style-type: none;
   margin-right: 1%;
-  background-color: beige;
 }
 
 .btn {
@@ -99,29 +101,12 @@ a {
 @keyframes from-right {
   0% {
     opacity: 0;
-    transform: translateX (90px);
+    transform: translateX 90px;
   }
   100% {
     opacity: 1;
-    transform: translateX (0px);
+    transform: translateX 0px;
   }
-}
-
-.grid {
-  width: 80%;
-  margin: 0 auto;
-  display: grid;
-  padding: 50px;
-  border: 0.5px solid black;
-  grid-template-columns: 200px 200px;
-  grid-gap: 100px;
-  justify-content: space-evenly;
-  background-image: linear-gradient(rgb(103, 55, 148), rgb(173, 159, 185));
-}
-.texto {
-  line-height: normal;
-  animation: from-right 3s ease;
-  font-size: small;
 }
 section {
   display: grid;
@@ -138,17 +123,4 @@ article {
   padding: 3rem;
 }
 
-article img {
-  order: -1;
-  align-self: center;
-}
-
-h2 {
-  color: darkcyan;
-}
-
-@media (max-width: 500px) {
-  .logo {
-    display: block;
-  }
-}
+/*# sourceMappingURL=style.css.map */

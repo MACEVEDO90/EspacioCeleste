@@ -13,10 +13,10 @@ img svg {
   vertical-align: middle;
 }
 h1 {
-  color: darkcyan;
+  color: $primary-color;
 }
 h2 {
-  color: darkcyan;
+  color: $primary-color;
 }
 head {
   font-family: "Montserrat", sans-serif;
@@ -54,12 +54,12 @@ footer {
 }
 
 .btn:hover {
-  background-color: darkcyan;
-  color: black;
+  background-color: $primary-color;
+  color: $text-color;
 }
 
 .btn:focus {
-  background-color: rgb(41, 128, 128);
+  background-color: $primary-color;
   outline-style: solid;
 }
 a {

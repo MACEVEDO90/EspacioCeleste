@@ -26,7 +26,7 @@
   }
 }
 .nav-link:nth-child {
-  animation-delay: 2s;
+  animation-delay: 3s;
 }
 
 * {
@@ -99,7 +99,7 @@ footer {
 }
 
 .btn:focus {
-  background-color: rgb(41, 128, 128);
+  background-color: darkcyan;
   outline-style: solid;
 }
 

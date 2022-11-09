@@ -1,1 +1,30 @@
+.nav-link {
+  background-color: darkcyan;
+  cursor: pointer;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  animation: iluminar 3s linear infinite;
+}
+.nav-link:hover {
+  background-color: blueviolet;
+}
 
+@keyframes iluminar {
+  0% {
+    color: black;
+    text-shadow: none;
+  }
+  90% {
+    color: black;
+    text-shadow: none;
+  }
+  100% {
+    color: blueviolet;
+    text-shadow: 0 0 7px blueviolet, 0 0 50px rgb(169, 95, 238);
+  }
+}
+
+.nav-link:nth-child {
+  animation-delay: 2s;
+}

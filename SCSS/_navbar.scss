@@ -3,7 +3,7 @@
   cursor: pointer;
   padding: 0.5rem;
   border: none;
-  animation: iluminar 3s linear infinite;
+  animation: iluminar 2s linear infinite;
 }
 .nav-link:hover {
   background-color: blueviolet;
@@ -25,5 +25,5 @@
 }
 
 .nav-link {
-  animation-delay: 4s;
+  animation-delay: 2s;
 }

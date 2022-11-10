@@ -3,7 +3,7 @@
   cursor: pointer;
   padding: 0.5rem;
   border: none;
-  animation: iluminar 3s linear infinite;
+  animation: iluminar 2s linear infinite;
 }
 
 .nav-link:hover {
@@ -25,7 +25,7 @@
   }
 }
 .nav-link {
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 
 * {
@@ -149,10 +149,6 @@ article {
   border: 1px solid black;
   border-radius: 2rem;
   padding: 3rem;
-}
-
-.navlink1 {
-  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

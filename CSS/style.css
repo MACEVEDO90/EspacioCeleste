@@ -1,12 +1,12 @@
-.nav-link {
+ul {
   background-color: darkcyan;
   cursor: pointer;
   padding: 0.5rem;
   border: none;
   animation: iluminar 2s linear infinite;
+  animation-delay: 2s;
 }
-
-.nav-link:hover {
+ul .nav-link:hover {
   background-color: blueviolet;
 }
 
@@ -24,10 +24,6 @@
     text-shadow: 0 0 10px blueviolet, 0 0 50px rgb(169, 95, 238);
   }
 }
-.nav-link {
-  animation-delay: 2s;
-}
-
 * {
   margin: 0;
   padding: 0;

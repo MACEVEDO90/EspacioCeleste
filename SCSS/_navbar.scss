@@ -1,12 +1,14 @@
-.nav-link {
+ul {
   background-color: darkcyan;
   cursor: pointer;
   padding: 0.5rem;
   border: none;
   animation: iluminar 2s linear infinite;
-}
-.nav-link:hover {
-  background-color: blueviolet;
+  animation-delay: 2s;
+
+  .nav-link:hover {
+    background-color: blueviolet;
+  }
 }
 
 @keyframes iluminar {
@@ -22,8 +24,4 @@
     color: blueviolet;
     text-shadow: 0 0 10px blueviolet, 0 0 50px rgb(169, 95, 238);
   }
-}
-
-.nav-link {
-  animation-delay: 2s;
 }

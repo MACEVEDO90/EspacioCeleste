@@ -1,7 +1,7 @@
 {
   "name": "clase0",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tienda de cosmética natural, cruelty free",
   "main": "index.js",
   "scripts": {
     "watch-css": "sass --watch scss/style.scss css/style.css"

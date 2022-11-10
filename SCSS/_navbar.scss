@@ -3,7 +3,6 @@
   cursor: pointer;
   padding: 0.5rem;
   border: none;
-  border-radius: 1rem;
   animation: iluminar 3s linear infinite;
 }
 .nav-link:hover {
@@ -21,10 +20,10 @@
   }
   100% {
     color: blueviolet;
-    text-shadow: 0 0 7px blueviolet, 0 0 50px rgb(169, 95, 238);
+    text-shadow: 0 0 10px blueviolet, 0 0 50px rgb(169, 95, 238);
   }
 }
 
-.nav-link:nth-child {
-  animation-delay: 3s;
+.nav-link {
+  animation-delay: 4s;
 }

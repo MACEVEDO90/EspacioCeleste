@@ -123,8 +123,8 @@ a {
   background-color: rgb(190, 172, 207);
 }
 
-.imgo {
-  animation: from-right 3s ease;
+p {
+  animation: from-right 4s ease;
 }
 
 @keyframes from-right {

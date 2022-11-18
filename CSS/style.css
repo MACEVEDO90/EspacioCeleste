@@ -1,5 +1,4 @@
 ul {
-  background-color: darkcyan;
   cursor: pointer;
   padding: 0.5rem;
   border: none;
@@ -48,6 +47,7 @@ h1 {
 
 h2 {
   color: darkcyan;
+  background-color: cornsilk;
 }
 
 head {
